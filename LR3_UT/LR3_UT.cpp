@@ -31,7 +31,7 @@ namespace LR3UT
 
 			stack heapVec(arr, 10); // heapVec - a vector that is supposed to represent bh
 
-			Assert::IsTrue(bh.getHeap() == heapVec); // Some issue with destructors, prolly need a copy constructor or some other shtick
+			Assert::IsTrue(bh.getHeap() == heapVec);
 		}
 		
 		TEST_METHOD(TestBFTIterator)
