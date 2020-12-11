@@ -7,7 +7,6 @@
 #include <vector>
 
 // NOTE: In this project binary heap is implemented using a vector (array). In this implementation breadth-first traversal is just linearly traversing the vector.
-// As such, implementing a BFT iterator is unnecessary.
 
 class binHeap
 {
